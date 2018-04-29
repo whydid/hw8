@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kazanova Svetlana"
+  },
+  "text": {
+    "more": "Сиреневые узлы - это одноклассники и школьные учителя, голубые узлы - друзья из университета,  зеленые узлы - знакомые по работе в кофейне, оранжевые узлы - знакомые по школе танцев, черные узлы - общие друзья с моей лучшей подругой, небольшой розовый узел в центре - знакомые по музыкальной школе",
+    "intro": "Граф моих друзей Вконтакте",
+    "title": "VK Graph"
+  },
+  "legend": {
+    "edgeLabel": "Знакомство",
+    "colorLabel": "Сообщество",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
